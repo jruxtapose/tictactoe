@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#gameboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 60vh;
+    width: 60vh;
+    gap: 5px;
+}
+
+.square {
+    background-color: lightgreen;
+    font-size: 3em;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
